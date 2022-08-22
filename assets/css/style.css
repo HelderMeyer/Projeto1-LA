@@ -1,0 +1,307 @@
+/*
+FORMATAÇÃO GERAL
+*/
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+}
+
+/*
+BANNER
+*/
+
+.section__banner {
+
+    position: relative;
+    background-image: url("../img/banner-tiny.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 105px;
+    align-items: center;
+
+}
+
+/*
+Imagens healthcare5
+*/
+
+.healthcare5__imagem {
+
+    height: 80px;
+    width: 80px;
+
+}
+
+/*
+3000+ De atendimento
+*/
+
+.healthcare5__3000atendimento__imgtexto {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.healthcare5__3000atendimento__texto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.healthcare5__3000atendimento__texto h1 {
+
+    width: 148px;
+    height: 55px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #4F1964;
+
+}
+
+.healthcare5__3000atendimento__texto h2 {
+
+    width: 176px;
+    height: 26px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #4F1964;
+
+}
+
+/*
+200+ Condições tratadas
+*/
+
+.healthcare5__200condicoes__imgtexto {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.healthcare5__200condicoes__texto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.healthcare5__200condicoes__texto h1 {
+
+    width: 148px;
+    height: 55px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #4F1964;
+
+}
+
+.healthcare5__200condicoes__texto h2 {
+
+    width: 200px;
+    height: 26px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #4F1964;
+
+}
+
+/*
+20+ Anos de atuação
+*/
+
+.healthcare5__20anos__imgtexto {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 100px;
+
+}
+
+.healthcare5__20anos__texto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.healthcare5__20anos__texto h1 {
+
+    width: 148px;
+    height: 55px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #4F1964;
+
+}
+
+.healthcare5__20anos__texto h2 {
+
+    width: 200px;
+    height: 26px;
+    left: 196px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #4F1964;
+
+}
+
+/*
+==================================
+RESPONSIVIDADE MOBILE WIDTH < 1000
+==================================
+*/
+
+@media only screen and (max-width: 1000px) {
+
+/*
+BANNER
+*/
+
+.section__banner {
+
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+
+}
+
+/*
+Imagens healthcare5
+*/
+
+.healthcare5__imagem {
+
+    height: 10vw;
+    width: 10vw;
+
+}
+
+/*
+3000+ De atendimento
+*/
+
+.healthcare5__3000atendimento__texto {
+
+    align-items: center;
+
+}
+
+.healthcare5__3000atendimento__texto h1 {
+
+    width: auto;
+    left: 0px;
+
+}
+
+.healthcare5__3000atendimento__texto h2 {
+
+    width: auto;
+    left: 0px;
+
+}
+
+/*
+200+ Condições tratadas
+*/
+
+.healthcare5__200condicoes__texto {
+
+    align-items: center;
+
+}
+
+.healthcare5__200condicoes__texto h1 {
+
+    width: auto;
+    left: 0px;
+
+}
+
+.healthcare5__200condicoes__texto h2 {
+
+    width: auto;
+    left: 0px;
+
+}
+
+/*
+20+ Anos de atuação
+*/
+
+.healthcare5__20anos__imgtexto {
+
+    margin-right: 0px;
+
+}
+
+.healthcare5__20anos__texto {
+
+    align-items: center;
+
+}
+
+.healthcare5__20anos__texto h1 {
+
+    width: auto;
+    left: 0px;
+
+}
+
+.healthcare5__20anos__texto h2 {
+
+    width: auto;
+    left: 0px;
+}
+
+/*
+Espaçamento entre os itens
+*/
+
+.healthcare5__3000atendimento__imgtexto,
+.healthcare5__200condicoes__imgtexto,
+.healthcare5__20anos__imgtexto {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+    
+}
